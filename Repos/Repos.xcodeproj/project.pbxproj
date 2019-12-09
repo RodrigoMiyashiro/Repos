@@ -56,15 +56,143 @@
 		6D1C028F239DD5280029EC80 /* Repos */ = {
 			isa = PBXGroup;
 			children = (
-				6D1C0290239DD5280029EC80 /* AppDelegate.swift */,
-				6D1C0292239DD5280029EC80 /* SceneDelegate.swift */,
+				6D3F4D4D239EF6790059D389 /* Supporting Files */,
+				6D3F4D58239EFB330059D389 /* Resources */,
+				6D3F4D51239EF9530059D389 /* Components */,
+				6D3F4D54239EFA650059D389 /* New Group */,
+				6D3F4D4A239EF6760059D389 /* Infrastructure */,
 				6D1C0294239DD5280029EC80 /* ViewController.swift */,
 				6D1C0296239DD5280029EC80 /* Main.storyboard */,
-				6D1C0299239DD52A0029EC80 /* Assets.xcassets */,
+			);
+			path = Repos;
+			sourceTree = "<group>";
+		};
+		6D3F4D4A239EF6760059D389 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				6D3F4D53239EFA290059D389 /* Local */,
+				6D3F4D52239EFA260059D389 /* Remote */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		6D3F4D4B239EF6770059D389 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6D3F4D50239EF94E0059D389 /* List */,
+				6D3F4D4F239EF94C0059D389 /* Detail */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6D3F4D4C239EF6780059D389 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6D3F4D4D239EF6790059D389 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D1C0290239DD5280029EC80 /* AppDelegate.swift */,
+				6D1C0292239DD5280029EC80 /* SceneDelegate.swift */,
 				6D1C029B239DD52A0029EC80 /* LaunchScreen.storyboard */,
 				6D1C029E239DD52A0029EC80 /* Info.plist */,
 			);
-			path = Repos;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D3F4D4F239EF94C0059D389 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		6D3F4D50239EF94E0059D389 /* List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		6D3F4D51239EF9530059D389 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6D3F4D57239EFB010059D389 /* Shared */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6D3F4D52239EFA260059D389 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		6D3F4D53239EFA290059D389 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		6D3F4D54239EFA650059D389 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				6D3F4D4C239EF6780059D389 /* Login */,
+				6D3F4D4B239EF6770059D389 /* Repositories */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6D3F4D55239EFAEF0059D389 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6D3F4D56239EFAF10059D389 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6D3F4D57239EFB010059D389 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6D3F4D56239EFAF10059D389 /* Extension */,
+				6D3F4D55239EFAEF0059D389 /* UI */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6D3F4D58239EFB330059D389 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D3F4D5A239EFB5D0059D389 /* Font */,
+				6D3F4D59239EFB5B0059D389 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6D3F4D59239EFB5B0059D389 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6D1C0299239DD52A0029EC80 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6D3F4D5A239EFB5D0059D389 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Repos/Info.plist;
+				INFOPLIST_FILE = Repos/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Repos/Info.plist;
+				INFOPLIST_FILE = Repos/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
